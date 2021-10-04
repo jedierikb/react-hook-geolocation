@@ -18,10 +18,13 @@
   "devDependencies": {
     "@babel/cli": "^7.12.8",
     "@babel/core": "^7.12.9",
-    "@babel/preset-env": "^7.12.7",
-    "@babel/preset-react": "^7.12.7",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "@rollup/plugin-babel": "^5.3.0",
     "babel-core": "^7.0.0-bridge",
-    "react": "^17.0.1"
+    "react": "^17.0.1",
+    "rollup": "^2.58.0",
+    "rollup-plugin-terser": "^7.0.2"
   },
   "peerDependencies": {
     "react": "^16.8.0"
